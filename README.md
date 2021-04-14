@@ -48,7 +48,7 @@ import VueAxios from 'vue-axios'
 
 Vue.use(VueAxios, axios)
 
-添加 vue.config.js 解决跨域问题
+添加 vue.config.js 解决跨域问题：内容参考本项目内vue.config.js
 
 
 Element-UI:
