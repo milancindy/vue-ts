@@ -7,10 +7,8 @@
 
 整合了 elementUI、axios、router、store
 
-## Project setup
+## 该框架的搭建步骤
 /////////////////////////////////////////////////////////////
-
-具体步骤
 
 安装 webstrom
 
