@@ -43,7 +43,7 @@ export default class HelloWorld extends Vue {
 
   public testAxios(): void {
       this.$store.commit("increment")
-      window.parent.postMessage(JSON.stringify('hello'+this.$store.state.count), '*');
+      window.parent.postMessage(JSON.stringify('hello'+this.$store.state.count), '*');//跨域传对象
       this.$http.get("/ako/",{}).then((response) => {
           console.log(response.data)
           this.$message("测试 elui"+this.$store.state.count)
